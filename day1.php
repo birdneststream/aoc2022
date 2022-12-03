@@ -19,7 +19,7 @@ foreach ($lines as $index => $line) {
 
 arsort($deer);
 
-echo "Top elf total: ";
+echo "Top elf total: \n";
 print_r(array_slice($deer, 0, 1, true));
 
 $sum = 0;
@@ -27,4 +27,4 @@ foreach (array_slice($deer, 0, 3) as $value) {
     $sum = $sum + $value;
 }
 
-echo "Top three elves total: $sum";
+echo "Top three elves total: $sum\n";
